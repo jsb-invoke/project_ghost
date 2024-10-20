@@ -1,7 +1,7 @@
 ## Solution Overview
 
 **Project Ghost** is an AI-driven personal assistant developed using Python, aimed at enhancing user productivity
-through voice-command functionality. The assistant recognizes the activation phrase **"Hey Max"** and responds to
+through voice-command functionality. The assistant recognizes the activation phrase **"Hey Ghost"** and responds to
 various vocal commands.
 
 Key features include:
