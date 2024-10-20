@@ -1,10 +1,19 @@
-import os
+import speech_recognition as sr
+import pyttsx3
 import time
 import webbrowser
-
+import os
 import pygame
-import pyttsx3
-import speech_recognition as sr
+import keyboard #Importing the keyboard module to set hotkeys
+
+import pyautogui as p
+
+import random
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 # Initialize the text-to-speech engine
 engine = pyttsx3.init()
@@ -109,7 +118,7 @@ def handle_command():
             command = recognizer.recognize_google(audio).lower()
             print(f"You said: {command}")
 
-            if "email" in command:
+            if "open" in command and "email" in command:
                 Dark_sound.play()
                 time.sleep(13)  # Adjust based on sound length
                 print("Checking your emails...")
