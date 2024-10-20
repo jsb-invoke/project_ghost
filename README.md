@@ -7,7 +7,6 @@ various vocal commands.
 Key features include:
 * **Voice Commands**: Users can open applications like Outlook, YouTube, Jira, or project dashboards using simple voice commands.
 * **Task Management**: The assistant facilitates daily task management by allowing users to check urgent items, input time into Projector timesheets, and access important notifications.
-* **Interactive Features**: The assistant includes interactive elements like a mini-game ("Catch the Apples") that users can engage with during break times, making usage enjoyable.
 * **Natural Language Processing**: Leveraging speech recognition, the assistant interprets user queries and responds dynamically to specific needs, enhancing user experience.
 
 ## Implementation
@@ -18,4 +17,7 @@ Project Ghost is built using the following technologies:
 * **Speech Recognition Libraries**: Implemented for capturing user commands.
 * **Text-to-Speech Engine**: Provides voice feedback to the user.
 
-## Impact of the Project
+## Installation
+
+* Clone the repository to your local machine using GIT
+* Run the following command to ensure that all package requirements are satisfied: `pip install -r /path/to/requirements.txt`
